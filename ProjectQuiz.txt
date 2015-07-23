@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
 Author: 
 Date:   
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -13,6 +13,7 @@ Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
 
+To eliminate blocking the browser and allowing scripts to be downloaded as quickly as possible.
 
 
 
@@ -21,7 +22,7 @@ Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
 
-
+Because using jQuery and having to call libraries will slow the page down.
 
 
 
@@ -31,6 +32,7 @@ Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
 
+with a $ symbol, which means the following code should be interpreted by the jquery library
 
 
 
@@ -38,4 +40,18 @@ How does every jQuery statement start?
 ++++++++++++
 Question #4: (10 points)
 ++++++++++++
-What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN
+
+A server setup which allows for faster, more efficient delivery of
+media files. It does this by maintaining copies of your media at different points of presence (POPs) along a global network to
+ensure quick client access and the fastest delivery possible
+
+Files can be pre cached, meaning the web page does not have to be downloaded again.File
+A lot of CDNs offer localized data centers, meaning downloads will be quicker for people who live in another country.A
+Built in version control, you can link back to a previous version 
+It saves badwidtch, distributes load, and reduces hosting cost.
+
+
+
+
+
